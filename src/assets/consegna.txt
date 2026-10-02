@@ -1,0 +1,35 @@
+Ciao classe
+esercizio di oggi: React fetch API
+nome repo: react-api
+
+Utilizzando la seguente API:
+https://dummyjson.com/docs/recipes
+
+Creare un componente in react che, prendendo i dati dall'API, mostri nella UI un elenco di ricette. I dati devono essere visualizzati subito alla visualizzazione (mounting) del componente.
+
+Mostrare un loader mentre prendiamo i dati. Potete usare questo snippet per simulare un delay della risposta, come abbiamo visto a lezione:
+// Fake delay
+await new Promise(resolve => setTimeout(resolve, 2000));
+
+Utilizzare try/catch per gestire il caso in cui abbiamo un errore nella risposta dell'api (response.ok ci restituisce false)
+
+
+Bonus
+
+Di seguito trovate altri endpoins di varie API che potete utilizzare per allenarvi ulteriormente:
+ 
+restituisce il proprio IP pubblico: 
+https://api.ipify.org/?format=json
+
+dati utente:
+https://randomuser.me/api/
+
+convertitore di valute 
+https://api.frankfurter.dev/v1/latest?from=EUR&to=USD
+(qui potete usare un input per ottenere un vero convertitore EURO / DOLLARO)
+
+prezzo del bitcoin 
+https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd,eur
+(come sopra, valore dell'input moltiplicato per il prezzo del bitcoin)
+
+Come sempre buon lavoro! 💪
